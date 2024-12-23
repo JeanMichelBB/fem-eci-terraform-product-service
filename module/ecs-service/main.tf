@@ -110,7 +110,7 @@ resource "aws_ecs_task_definition" "this" {
 
         options = {
           "awslogs-group"         = aws_cloudwatch_log_group.this.name
-          "awslogs-region"        = "us-west-2"
+          "awslogs-region"        = "ca-central-1"
           "awslogs-stream-prefix" = "ecs"
         }
       }
