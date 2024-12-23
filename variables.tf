@@ -7,6 +7,6 @@ variable "environment" {
 }
 
 variable "registry" {
-  default = "575108946163.dkr.ecr.us-east-2.amazonaws.com"
+  default = "575108946163.dkr.ecr.ca-central-1.amazonaws.com"
   type    = string
 }
